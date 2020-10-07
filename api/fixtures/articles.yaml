@@ -1,0 +1,7 @@
+App\Entity\Article:
+    article_{2..10}:
+        author_id: <integer()>
+        title: <sentence(4)>
+        content: <text()>
+        createdAt: <dateTime()>
+        updatedAt: <dateTime()>
